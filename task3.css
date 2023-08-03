@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parent {
+    padding: 60px 0;
+}
+
+.parent .container {
+
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.parent .container img {
+    width: 40%;
+    height: 40%;
+}
+
+.parent .container .text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 15px;
+    padding-top: 20px;
+
+}
+
+.parent .container .text h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+.parent .container .text p {
+    margin: 55px 0;
+    font-size: 16px;
+    color: #686868;
+    line-height: 1.8;
+}
+
+.parent .container .text ul {
+    padding: 20px 0;
+
+}
+
+.parent .container .text ul li {
+    font-size: 20px;
+    color: #686868;
+    margin-bottom: 30px;
+}
+
+.products {
+    padding: 0 60px;
+    margin-bottom: 60px;
+}
+
+.products .container {
+
+    padding: 70px 0;
+
+}
+
+.products .container .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 20px;
+}
+
+.products .container .text h2 {
+
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+.products .container .text p {
+    text-align: center;
+    color: #686868;
+    margin: 0 30px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.product p {
+    justify-content: center;
+}
+
+.product img {
+    width: 100%;
+}
+
+
+.product .p {
+    width: calc(100% / 3);
+    margin: 0 20px;
+}
+
+.footer {
+    padding: 60px 60px;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.footer .content {
+    width: 50%;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.footer .content h2 {
+    margin: 40px 0;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.footer .content p {
+
+    margin-bottom: 35px;
+    color: #686868;
+
+    font-size: 16px;
+    line-height: 2;
+}
+
+.footer .content ul li {
+    margin-bottom: 20px;
+    color: #686868;
+    font-size: 16px;
+    line-height: 1.4rem;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .maps {
+    width: 50%;
+}
+
+.footer .maps iframe {
+    padding: 10px;
+    width: 100%;
+}
